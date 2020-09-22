@@ -27,7 +27,7 @@
 import UIKit
 
 public struct MultiPickerConfiguration {
-    internal init(backgroundColor: UIColor, cellPadding: CGFloat, pickerWidth: CGFloat, pickerHeight: CGFloat, topOffset: CGFloat, offsetBetweenPickers: CGFloat, unfocusedPickerAlphaValue: CGFloat, focusedPickerAlphaValue: CGFloat, doneButtonText: String, doneButtonBottomOffset: Int, focusedTextColor: UIColor, focusedBgColor: UIColor, focusedFont: UIFont, normalTextColor: UIColor, normalBgColor: UIColor, normalFont: UIFont) {
+    public init(backgroundColor: UIColor, cellPadding: CGFloat, pickerWidth: CGFloat, pickerHeight: CGFloat, topOffset: CGFloat, offsetBetweenPickers: CGFloat, unfocusedPickerAlphaValue: CGFloat, focusedPickerAlphaValue: CGFloat, doneButtonText: String, doneButtonBottomOffset: Int, focusedTextColor: UIColor, focusedBgColor: UIColor, focusedFont: UIFont, normalTextColor: UIColor, normalBgColor: UIColor, normalFont: UIFont) {
         self.backgroundColor = backgroundColor
         self.cellPadding = cellPadding
         self.pickerWidth = pickerWidth
